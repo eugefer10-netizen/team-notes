@@ -23,3 +23,12 @@ def add_note(title, body):
     notes.append(note)
     save_notes(notes)
     return note
+
+def list_notes():
+    """Devuelve todas las notas"""
+    return load_notes()
+
+def find_notes(query):
+    """Devuelve notas cuyo título o cuerpo contenga la query"""
+    notes = load_notes()
+    return [n for n in notes if query.lower() in n['title'].lower() or query.lower() in n['body'].lower()]
