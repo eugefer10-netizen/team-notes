@@ -1,2 +1,2 @@
 # team-notes
-Mini app de consola en Python para crear, listar, buscar y eliminar notas.
+Mini app de consola en Python para crear, listar, buscar y eliminar notas.Cambio con bug
